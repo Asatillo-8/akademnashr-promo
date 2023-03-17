@@ -1,0 +1,140 @@
+.main-nav {
+  list-style-type: none;
+}
+.main-navigation-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none   ;
+}
+.main-register {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-weight: 13px;
+  line-height: 15px;
+  letter-spacing: 0,5px;
+  text-decoration: none;
+  background-color: #ff7500;
+}
+.hero-content {
+  background-color: #252420;
+
+}
+.hero-line {
+  background-color: #ff7500;
+  width: 80px;
+  height: 3px;
+
+}
+.hero-title {
+  width: 390px;
+}
+.hero-img {
+  width: 550px;
+  height: 550px;
+}
+.main-title {
+  color: #fff;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+.main-subtitle {
+  color: #fff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+.button {
+  color: #fff;
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  background-color: #ff7500;
+}
+.fact-img {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2  );
+}
+.info-fact {
+  width: 340px;
+}
+.fact-title {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+
+
+  color: #000000;
+}
+.fuct-title {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+.fuct-subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+.about-child-book {
+  background-color: #252420;
+}
+.child-book {
+  width: 440px;
+}
+.promo-highlight {
+  color: #ff7500;
+}
+.site-footer-divider {
+  background-color: rgba(37, 32, 36, 0.5);
+}
+.main-footer-nav {
+  text-decoration: none;
+}
+  .main-footer-nav-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FF7500;
+  text-decoration: none;
+}
+.main-footer-nav-items {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252420;
+  text-decoration: none;
+}
