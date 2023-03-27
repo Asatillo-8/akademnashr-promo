@@ -1,7 +1,20 @@
-.main-nav {
-  list-style-type: none;
+/* HEADER */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.main-navigation-item {
+.site-header-action {
+  display: flex;
+  justify-content: space-;
+  align-items: center;
+}
+.site-header-nav {
+  list-style-type: none;
+  display: flex;
+}
+.site-header-nav-item {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -11,7 +24,7 @@
   text-transform: uppercase;
   text-decoration: none   ;
 }
-.main-register {
+.site-header-register {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -21,8 +34,14 @@
   text-decoration: none;
   background-color: #ff7500;
 }
+/* /HEADER */
+
+/* HERO */
 .hero-content {
   background-color: #252420;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 .hero-line {
@@ -67,15 +86,23 @@
   letter-spacing: 0.5px;
   background-color: #ff7500;
 }
-.fact-img {
+/* /HERO */
+
+/* FEATURES */
+.feature-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.feature-img {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2  );
 }
-.info-fact {
+.feature-lists {
   width: 340px;
 }
-.fact-title {
+.feature-heading {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
@@ -83,10 +110,9 @@
   line-height: 120%;
   letter-spacing: 0.5px;
 
-
   color: #000000;
 }
-.fuct-title {
+.feature-title {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
@@ -95,19 +121,24 @@
   letter-spacing: 0.5px;
   color: #000000;
 }
-.fuct-subtitle {
+.feature-subtitle {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 24px;
   letter-spacing: 0.5px;
   color: #000000;
 }
-.about-child-book {
+/* /FEATURE */
+
+.promo {
   background-color: #252420;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.child-book {
+.promo-content {
   width: 440px;
 }
 .promo-highlight {
@@ -119,7 +150,26 @@
 .main-footer-nav {
   text-decoration: none;
 }
-  .main-footer-nav-item {
+
+.site-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer-buttom {
+  display: flex;
+  justify-content: space-between;
+}
+.site-footer-social {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.footer-nav {
+    list-style: none;
+}
+.main-footer-nav-item {
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
